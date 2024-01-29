@@ -6,21 +6,27 @@
 using System.Diagnostics;
 
 namespace COMP003A.Assignment2
-{
-
-    internal class Program
  {
-     static void Main(string[] args)
+
+       internal class Program
+   {
+       static void Main(string[] args)
      {
          Console.BackgroundColor = ConsoleColor.DarkBlue;
          Console.ForegroundColor = ConsoleColor.White;
 
-         string firstName = Console.ReadLine(Gabiela);
-         string middleName = Console.ReadLine(Nicole);
-         string lastName = Console.ReadLine(Benavides);
-         string inputAge = Console.ReadLine(36);
+         Console.WriteLine("firstName {Gabrila} ");
+         Console.ReadLine();
+         Console.WriteLine("middleName {Nicole} ");
+         Console.ReadLine();
+         Console.WriteLine("lastName {Benavides} ");
+         Console.ReadLine();
+         Console.WriteLine("age in 2023 {36} ");
+         Console.ReadLine();
          
      }
-    
-
+     
+  }
  
+}
+    
