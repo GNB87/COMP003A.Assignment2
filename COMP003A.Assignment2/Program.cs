@@ -11,7 +11,8 @@ namespace COMP003A.Assignment2
        internal class Program
    {
        static void Main(string[] args)
-     {
+       {
+           Console.Title = "COMP-003A -Assignment 2";
          Console.BackgroundColor = ConsoleColor.DarkBlue;
          Console.ForegroundColor = ConsoleColor.White;
 
@@ -23,6 +24,7 @@ namespace COMP003A.Assignment2
          Console.ReadLine();
          Console.WriteLine("age in 2023 {36} ");
          Console.ReadLine();
+         
          
      }
      
